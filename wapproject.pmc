@@ -1,0 +1,551 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|`+r|Enter|1|Window,2,Fast,0,1,Input,-1,-1,1|1|Reply
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1219|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|47|Sleep|||||5|
+5|Left Move & Click|360, 326 Left, Down|1|0|Click|||||6|
+6|Left Move & Click|360, 326 Left, Up|1|0|Click|||||7|
+7|[Pause]||1|484|Sleep|||||8|
+8|NumpadDiv|{NumpadDiv}|1|0|Send|||||9|
+9|[Pause]||1|47|Sleep|||||10|
+10|Left Move & Click|360, 326 Left, Down|1|0|Click|||||11|
+11|[Pause]||1|16|Sleep|||||12|
+12|Left Move & Click|360, 326 Left, Up|1|0|Click|||||13|
+13|[Pause]||1|5703|Sleep|||||14|
+14|F9|{F9}|1|0|Send|||||15|
+
+[PMC Code v5.4.1]|`+!r|Enter|1|Window,2,Fast,0,1,Input,-1,-1,1|1|Resend
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3640|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|32|Sleep|||||5|
+5|Left Move & Click|360, 495 Left, Down|1|0|Click|||||6|
+6|Left Move & Click|360, 495 Left, Up|1|0|Click|||||7|
+7|[Pause]||1|750|Sleep|||||8|
+8|NumpadDiv|{NumpadDiv}|1|0|Send|||||9|
+9|Left Move & Click|360, 495 Left, Down|1|0|Click|||||10|
+10|Left Move & Click|360, 495 Left, Up|1|0|Click|||||11|
+11|[Pause]||1|344|Sleep|||||12|
+12|Move|360, 326, 0|1|0|Click|||||13|
+13|[Pause]||1|968|Sleep|||||14|
+14|WinActivate||1|0|WinActivate||Pulover's Macro Creator v5.4.1 ahk_class AutoHotkeyGUI|||15|
+15|LAlt Down|{LAlt Down}|1|0|Send|||||16|
+16|[Pause]||1|797|Sleep|||||17|
+17|LAlt Up|{LAlt Up}|1|0|Send|||||18|
+18|[Pause]||1|938|Sleep|||||19|
+19|WinActivate||1|0|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||20|
+20|Tab|{Tab}|1|0|Send|||||21|
+21|[Pause]||1|859|Sleep|||||22|
+22|AppsKey|{AppsKey}|1|0|Send|||||23|
+23|[Pause]||1|1094|Sleep|||||24|
+24|Up|{Up}|1|0|Send|||||25|
+25|[Pause]||1|469|Sleep|||||26|
+26|Up|{Up}|1|0|Send|||||27|
+27|[Pause]||1|609|Sleep|||||28|
+28|Up|{Up}|1|0|Send|||||29|
+29|[Pause]||1|547|Sleep|||||30|
+30|Up|{Up}|1|0|Send|||||31|
+31|[Pause]||1|562|Sleep|||||32|
+32|Up|{Up}|1|0|Send|||||33|
+33|[Pause]||1|782|Sleep|||||34|
+34|Up|{Up}|1|0|Send|||||35|
+35|[Pause]||1|859|Sleep|||||36|
+36|Up|{Up}|1|0|Send|||||37|
+37|[Pause]||1|859|Sleep|||||38|
+38|Up|{Up}|1|0|Send|||||39|
+39|[Pause]||1|1797|Sleep|||||40|
+40|Up|{Up}|1|0|Send|||||41|
+41|[Pause]||1|813|Sleep|||||42|
+42|Up|{Up}|1|0|Send|||||43|
+43|[Pause]||1|4859|Sleep|||||44|
+44|Tab|{Tab}|1|0|Send|||||45|
+45|[Pause]||1|1328|Sleep|||||46|
+46|NumpadPgDn|{NumpadPgDn}|1|0|Send|||||47|
+47|[Pause]||1|1375|Sleep|||||48|
+48|Tab|{Tab}|1|0|Send|||||49|
+49|[Pause]||1|328|Sleep|||||50|
+50|Up|{Up}|1|0|Send|||||51|
+51|[Pause]||1|532|Sleep|||||52|
+52|NumpadDown|{NumpadDown}|1|0|Send|||||53|
+53|[Pause]||1|375|Sleep|||||54|
+54|LAlt Down|{LAlt Down}|1|0|Send|||||55|
+55|[Pause]||1|171|Sleep|||||56|
+56|LAlt Up|{LAlt Up}|1|0|Send|||||57|
+57|[Pause]||1|360|Sleep|||||58|
+58|NumpadDown|{NumpadDown}|1|0|Send|||||59|
+59|[Pause]||1|1109|Sleep|||||60|
+60|Tab|{Tab}|1|0|Send|||||61|
+61|[Pause]||1|641|Sleep|||||62|
+62|Tab|{Tab}|1|0|Send|||||63|
+63|[Pause]||1|578|Sleep|||||64|
+64|Tab|{Tab}|1|0|Send|||||65|
+65|[Pause]||1|437|Sleep|||||66|
+66|Space|{Space}|1|0|Send|||||67|
+67|[Pause]||1|391|Sleep|||||68|
+68|Tab|{Tab}|1|0|Send|||||69|
+69|[Pause]||1|1469|Sleep|||||70|
+70|Up|{Up}|1|0|Send|||||71|
+71|[Pause]||1|469|Sleep|||||72|
+72|NumpadDown|{NumpadDown}|1|0|Send|||||73|
+73|[Pause]||1|1328|Sleep|||||74|
+74|Up|{Up}|1|0|Send|||||75|
+75|[Pause]||1|1093|Sleep|||||76|
+76|NumpadDown|{NumpadDown}|1|0|Send|||||77|
+77|[Pause]||1|4844|Sleep|||||78|
+78|Space|{Space}|1|0|Send|||||79|
+79|[Pause]||1|656|Sleep|||||80|
+80|Tab|{Tab}|1|0|Send|||||81|
+81|[Pause]||1|485|Sleep|||||82|
+82|RShift Down|{RShift Down}|1|0|Send|||||83|
+83|[Pause]||1|140|Sleep|||||84|
+84|Tab|{Tab}|1|0|Send|||||85|
+85|[Pause]||1|157|Sleep|||||86|
+86|RShift Up|{RShift Up}|1|0|Send|||||87|
+87|[Pause]||1|281|Sleep|||||88|
+88|RShift Down|{RShift Down}|1|0|Send|||||89|
+89|[Pause]||1|406|Sleep|||||90|
+90|Tab|{Tab}|1|0|Send|||||91|
+91|[Pause]||1|406|Sleep|||||92|
+92|RShift Up|{RShift Up}|1|0|Send|||||93|
+93|[Pause]||1|157|Sleep|||||94|
+94|RShift Down|{RShift Down}|1|0|Send|||||95|
+95|[Pause]||1|172|Sleep|||||96|
+96|RShift Up|{RShift Up}|1|0|Send|||||97|
+97|[Pause]||1|390|Sleep|||||98|
+98|RShift Down|{RShift Down}|1|0|Send|||||99|
+99|[Pause]||1|172|Sleep|||||100|
+100|RShift Up|{RShift Up}|1|0|Send|||||101|
+101|[Pause]||1|531|Sleep|||||102|
+102|Tab|{Tab}|1|0|Send|||||103|
+103|[Pause]||1|469|Sleep|||||104|
+104|RShift Down|{RShift Down}|1|0|Send|||||105|
+105|[Pause]||1|78|Sleep|||||106|
+106|Tab|{Tab}|1|0|Send|||||107|
+107|[Pause]||1|172|Sleep|||||108|
+108|RShift Up|{RShift Up}|1|0|Send|||||109|
+109|[Pause]||1|359|Sleep|||||110|
+110|Tab|{Tab}|1|0|Send|||||111|
+111|[Pause]||1|610|Sleep|||||112|
+112|Tab|{Tab}|1|0|Send|||||113|
+113|[Pause]||1|469|Sleep|||||114|
+114|Tab|{Tab}|1|0|Send|||||115|
+115|[Pause]||1|187|Sleep|||||116|
+116|RShift Down|{RShift Down}|1|0|Send|||||117|
+117|[Pause]||1|313|Sleep|||||118|
+118|Tab|{Tab}|1|0|Send|||||119|
+119|[Pause]||1|156|Sleep|||||120|
+120|Tab|{Tab}|1|0|Send|||||121|
+121|[Pause]||1|203|Sleep|||||122|
+122|Tab|{Tab}|1|0|Send|||||123|
+123|[Pause]||1|375|Sleep|||||124|
+124|RShift Up|{RShift Up}|1|0|Send|||||125|
+125|[Pause]||1|219|Sleep|||||126|
+126|Tab|{Tab}|1|0|Send|||||127|
+127|[Pause]||1|375|Sleep|||||128|
+128|RShift Down|{RShift Down}|1|0|Send|||||129|
+129|[Pause]||1|203|Sleep|||||130|
+130|RShift Up|{RShift Up}|1|0|Send|||||131|
+131|[Pause]||1|297|Sleep|||||132|
+132|Escape|{Escape}|1|0|Send|||||133|
+133|[Pause]||1|609|Sleep|||||134|
+134|Tab|{Tab}|1|0|Send|||||135|
+135|[Pause]||1|500|Sleep|||||136|
+136|RShift Down|{RShift Down}|1|0|Send|||||137|
+137|[Pause]||1|78|Sleep|||||138|
+138|Tab|{Tab}|1|0|Send|||||139|
+139|[Pause]||1|516|Sleep|||||140|
+140|RShift Up|{RShift Up}|1|0|Send|||||141|
+141|[Pause]||1|172|Sleep|||||142|
+142|End|{End}|1|0|Send|||||143|
+143|[Pause]||1|656|Sleep|||||144|
+144|Up|{Up}|1|0|Send|||||145|
+145|[Pause]||1|2453|Sleep|||||146|
+146|AppsKey|{AppsKey}|1|0|Send|||||147|
+147|[Pause]||1|766|Sleep|||||148|
+148|Up|{Up}|1|0|Send|||||149|
+149|[Pause]||1|500|Sleep|||||150|
+150|Up|{Up}|1|0|Send|||||151|
+151|[Pause]||1|734|Sleep|||||152|
+152|Up|{Up}|1|0|Send|||||153|
+153|[Pause]||1|625|Sleep|||||154|
+154|Up|{Up}|1|0|Send|||||155|
+155|[Pause]||1|1078|Sleep|||||156|
+156|Up|{Up}|1|0|Send|||||157|
+157|[Pause]||1|2344|Sleep|||||158|
+158|NumpadDown|{NumpadDown}|1|0|Send|||||159|
+159|[Pause]||1|31|Sleep|||||160|
+160|Down|{Down}|1|0|Send|||||161|
+161|[Pause]||1|1141|Sleep|||||162|
+162|Escape|{Escape}|1|0|Send|||||163|
+163|[Pause]||1|781|Sleep|||||164|
+164|LAlt Down|{LAlt Down}|1|0|Send|||||165|
+165|[Pause]||1|594|Sleep|||||166|
+166|LAlt Up|{LAlt Up}|1|0|Send|||||167|
+167|[Pause]||1|5703|Sleep|||||168|
+168|AppsKey|{AppsKey}|1|0|Send|||||169|
+169|[Pause]||1|828|Sleep|||||170|
+170|RShift Down|{RShift Down}|1|0|Send|||||171|
+171|[Pause]||1|375|Sleep|||||172|
+172|Right|{Right}|1|0|Send|||||173|
+173|[Pause]||1|297|Sleep|||||174|
+174|Right|{Right}|1|0|Send|||||175|
+175|[Pause]||1|312|Sleep|||||176|
+176|Right|{Right}|1|0|Send|||||177|
+177|[Pause]||1|407|Sleep|||||178|
+178|Left|{Left}|1|0|Send|||||179|
+179|[Pause]||1|93|Sleep|||||180|
+180|RShift Up|{RShift Up}|1|0|Send|||||181|
+181|[Pause]||1|297|Sleep|||||182|
+182|RShift Down|{RShift Down}|1|0|Send|||||183|
+183|[Pause]||1|110|Sleep|||||184|
+184|m|{m}|1|0|Send|||||185|
+185|[Pause]||1|15|Sleep|||||186|
+186|Move|360, 525, 0|1|0|Click|||||187|
+187|[Pause]||1|141|Sleep|||||188|
+188|RShift Up|{RShift Up}|1|0|Send|||||189|
+
+[PMC Code v5.4.1]|+^p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Replyinprivate
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3407|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|15|Sleep|||||5|
+5|Left Move & Click|360, 525 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|32|Sleep|||||7|
+7|Left Move & Click|360, 525 Left, Up|1|0|Click|||||8|
+8|[Pause]||1|562|Sleep|||||9|
+9|NumpadDiv|{NumpadDiv}|1|0|Send|||||10|
+10|Left Move & Click|360, 525 Left, Down|1|0|Click|||||11|
+11|[Pause]||1|16|Sleep|||||12|
+12|Left Move & Click|360, 525 Left, Up|1|0|Click|||||13|
+
+[PMC Code v5.4.1]|+^a|w|1|Window,2,Fast,0,1,Input,-1,-1,1|1|attach
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|4734|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|47|Sleep|||||5|
+5|Left Move & Click|317, 400 Left, Down|1|0|Click|||||6|
+6|Left Move & Click|317, 400 Left, Up|1|0|Click|||||7|
+7|[Pause]||1|6063|Sleep|||||8|
+8|Left Move & Click|317, 400 Left, Down|1|0|Click|||||9|
+9|[Pause]||1|31|Sleep|||||10|
+10|Left Move & Click|317, 400 Left, Up|1|0|Click|||||11|
+11|[Pause]||1|2672|Sleep|||||12|
+12|Move|309, 400, 0|1|0|Click|||||13|
+
+[PMC Code v5.4.1]|+^c||1|Window,2,Fast,0,1,Input,-1,-1,1|1|copy
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3391|Sleep|||||3|
+3|Left Move & Click|360, 416 Left, Down|1|0|Click|||||4|
+4|[Pause]||1|15|Sleep|||||5|
+5|Left Move & Click|360, 416 Left, Up|1|0|Click|||||6|
+6|[Pause]||1|656|Sleep|||||7|
+7|NumpadDiv|{NumpadDiv}|1|0|Send|||||8|
+8|[Pause]||1|32|Sleep|||||9|
+9|Left Move & Click|360, 416 Left, Down|1|0|Click|||||10|
+10|Left Move & Click|360, 416 Left, Up|1|0|Click|||||11|
+
+[PMC Code v5.4.1]|+^o||1|Window,2,Fast,0,1,Input,-1,-1,1|1|settings
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3203|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|32|Sleep|||||5|
+5|Left Move & Click|220, 69 Left, Down|1|0|Click|||||6|
+6|Left Move & Click|220, 69 Left, Up|1|0|Click|||||7|
+
+[PMC Code v5.4.1]|+^i||1|Window,2,Fast,0,1,Input,-1,-1,1|1|inormacion
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|2375|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|16|Sleep|||||5|
+5|Left Move & Click|364, 336 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|15|Sleep|||||7|
+7|Left Move & Click|364, 336 Left, Up|1|0|Click|||||8|
+8|[Pause]||1|1297|Sleep|||||9|
+9|NumpadDiv|{NumpadDiv}|1|0|Send|||||10|
+10|[Pause]||1|16|Sleep|||||11|
+11|Left Move & Click|364, 336 Left, Down|1|0|Click|||||12|
+12|[Pause]||1|15|Sleep|||||13|
+13|Left Move & Click|364, 336 Left, Up|1|0|Click|||||14|
+14|[Pause]||1|4516|Sleep|||||15|
+15|Tab|{Tab}|1|0|Send|||||16|
+16|[Pause]||1|437|Sleep|||||17|
+17|Tab|{Tab}|1|0|Send|||||18|
+18|[Pause]||1|344|Sleep|||||19|
+19|Tab|{Tab}|1|0|Send|||||20|
+20|[Pause]||1|219|Sleep|||||21|
+21|Tab|{Tab}|1|0|Send|||||22|
+22|[Pause]||1|219|Sleep|||||23|
+23|Tab|{Tab}|1|0|Send|||||24|
+24|[Pause]||1|187|Sleep|||||25|
+25|Tab|{Tab}|1|0|Send|||||26|
+26|[Pause]||1|235|Sleep|||||27|
+27|Tab|{Tab}|1|0|Send|||||28|
+28|[Pause]||1|187|Sleep|||||29|
+29|Tab|{Tab}|1|0|Send|||||30|
+30|[Pause]||1|250|Sleep|||||31|
+31|Tab|{Tab}|1|0|Send|||||32|
+32|[Pause]||1|391|Sleep|||||33|
+33|Tab|{Tab}|1|0|Send|||||34|
+34|[Pause]||1|390|Sleep|||||35|
+35|Tab|{Tab}|1|0|Send|||||36|
+36|[Pause]||1|250|Sleep|||||37|
+37|Tab|{Tab}|1|0|Send|||||38|
+38|[Pause]||1|500|Sleep|||||39|
+39|Tab|{Tab}|1|0|Send|||||40|
+40|[Pause]||1|969|Sleep|||||41|
+41|Tab|{Tab}|1|0|Send|||||42|
+42|[Pause]||1|891|Sleep|||||43|
+43|Tab|{Tab}|1|0|Send|||||44|
+44|[Pause]||1|2125|Sleep|||||45|
+45|RShift Down|{RShift Down}|1|0|Send|||||46|
+46|[Pause]||1|109|Sleep|||||47|
+47|Tab|{Tab}|1|0|Send|||||48|
+48|[Pause]||1|109|Sleep|||||49|
+49|RShift Up|{RShift Up}|1|0|Send|||||50|
+
+[PMC Code v5.4.1]|+^d||1|Window,2,Fast,0,1,Input,-1,-1,1|1|removeForME
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|4750|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|969|Sleep|||||5|
+5|NumpadDiv|{NumpadDiv}|1|0|Send|||||6|
+6|[Pause]||1|563|Sleep|||||7|
+7|LAlt Down|{LAlt Down}|1|0|Send|||||8|
+8|[Pause]||1|47|Sleep|||||9|
+9|+|{+}|1|0|Send|||||10|
+10|[Pause]||1|312|Sleep|||||11|
+11|LAlt Up|{LAlt Up}|1|0|Send|||||12|
+12|[Pause]||1|547|Sleep|||||13|
+13|NumpadDiv|{NumpadDiv}|1|0|Send|||||14|
+14|[Pause]||1|47|Sleep|||||15|
+15|Left Move & Click|431, 343 Left, Down|1|0|Click|||||16|
+16|[Pause]||1|15|Sleep|||||17|
+17|Left Move & Click|431, 343 Left, Up|1|0|Click|||||18|
+18|[Pause]||1|625|Sleep|||||19|
+19|NumpadDiv|{NumpadDiv}|1|0|Send|||||20|
+20|[Pause]||1|47|Sleep|||||21|
+21|Left Move & Click|431, 343 Left, Down|1|0|Click|||||22|
+22|[Pause]||1|16|Sleep|||||23|
+23|Left Move & Click|431, 343 Left, Up|1|0|Click|||||24|
+24|[Pause]||1|5734|Sleep|||||25|
+25|RShift Down|{RShift Down}|1|0|Send|||||26|
+26|[Pause]||1|94|Sleep|||||27|
+27|m|{m}|1|0|Send|||||28|
+28|[Pause]||1|31|Sleep|||||29|
+29|Move|147, 323, 0|1|0|Click|||||30|
+30|[Pause]||1|157|Sleep|||||31|
+31|RShift Up|{RShift Up}|1|0|Send|||||32|
+32|[Pause]||1|2109|Sleep|||||33|
+33|NumpadDiv|{NumpadDiv}|1|0|Send|||||34|
+34|[Pause]||1|47|Sleep|||||35|
+35|Left Move & Click|147, 323 Left, Down|1|0|Click|||||36|
+36|[Pause]||1|15|Sleep|||||37|
+37|Left Move & Click|147, 323 Left, Up|1|0|Click|||||38|
+38|[Pause]||1|1922|Sleep|||||39|
+39|NumpadDiv|{NumpadDiv}|1|0|Send|||||40|
+40|[Pause]||1|32|Sleep|||||41|
+41|Left Move & Click|147, 323 Left, Down|1|0|Click|||||42|
+42|Left Move & Click|147, 323 Left, Up|1|0|Click|||||43|
+43|[Pause]||1|2187|Sleep|||||44|
+44|RShift Down|{RShift Down}|1|0|Send|||||45|
+45|[Pause]||1|297|Sleep|||||46|
+46|Left|{Left}|1|0|Send|||||47|
+47|[Pause]||1|797|Sleep|||||48|
+48|Right|{Right}|1|0|Send|||||49|
+49|[Pause]||1|562|Sleep|||||50|
+50|Up|{Up}|1|0|Send|||||51|
+51|[Pause]||1|657|Sleep|||||52|
+52|RShift Up|{RShift Up}|1|0|Send|||||53|
+53|[Pause]||1|515|Sleep|||||54|
+54|NumpadDown|{NumpadDown}|1|0|Send|||||55|
+55|[Pause]||1|1641|Sleep|||||56|
+56|Tab|{Tab}|1|0|Send|||||57|
+57|[Pause]||1|578|Sleep|||||58|
+58|RShift Down|{RShift Down}|1|0|Send|||||59|
+59|[Pause]||1|62|Sleep|||||60|
+60|Tab|{Tab}|1|0|Send|||||61|
+61|[Pause]||1|125|Sleep|||||62|
+62|RShift Up|{RShift Up}|1|0|Send|||||63|
+
+[PMC Code v5.4.1]|^!p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|playpause
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3610|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|Left Move & Click|433, 556 Left, Down|1|0|Click|||||5|
+5|Left Move & Click|433, 556 Left, Up|1|0|Click|||||6|
+
+[PMC Code v5.4.1]|^!r||1|Window,2,Fast,0,1,Input,-1,-1,1|1|voicereset
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|4438|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|47|Sleep|||||5|
+5|Left Move & Click|468, 572 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|15|Sleep|||||7|
+7|Left Move & Click|468, 572 Left, Up|1|0|Click|||||8|
+
+[PMC Code v5.4.1]|ignore3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro11
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|2954|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|46|Sleep|||||5|
+5|Left Move & Click|584, 564 Left, Down|1|0|Click|||||6|
+6|Left Move & Click|584, 564 Left, Up|1|0|Click|||||7|
+7|[Pause]||1|3110|Sleep|||||8|
+8|F9|{F9}|1|0|Send|||||9|
+
+[PMC Code v5.4.1]|^!s||1|Window,2,Fast,0,1,Input,-1,-1,1|1|saveas
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|2422|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|31|Sleep|||||5|
+5|Left Move & Click|500, 398 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|15|Sleep|||||7|
+7|Left Move & Click|500, 398 Left, Up|1|0|Click|||||8|
+8|[Pause]||1|1594|Sleep|||||9|
+9|NumpadDiv|{NumpadDiv}|1|0|Send|||||10|
+10|[Pause]||1|47|Sleep|||||11|
+11|Left Move & Click|500, 398 Left, Down|1|0|Click|||||12|
+12|Left Move & Click|500, 398 Left, Up|1|0|Click|||||13|
+13|[Pause]||1|1766|Sleep|||||14|
+14|Move|492, 390, 0|1|0|Click|||||15|
+
+[PMC Code v5.4.1]|ignore2||1|Window,2,Fast,0,1,Input,-1,-1,1|1|ignore
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow||||
+2|[Pause]||1|2406|Sleep||||||
+3|RShift Down|{RShift Down}|1|0|Send||||||
+4|[Pause]||1|94|Sleep||||||
+5|m|{m}|1|0|Send||||||
+6|[Pause]||1|16|Sleep||||||
+7|Move|198, 444, 0|1|0|Click||||||
+8|[Pause]||1|156|Sleep||||||
+9|RShift Up|{RShift Up}|1|0|Send||||||
+10|[Pause]||1|969|Sleep||||||
+11|NumpadDiv|{NumpadDiv}|1|0|Send||||||
+12|[Pause]||1|31|Sleep||||||
+13|Left Move & Click|198, 444 Left, Down|1|0|Click||||||
+14|Left Move & Click|198, 444 Left, Up|1|0|Click||||||
+
+[PMC Code v5.4.1]|ignore1||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro14
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+
+[PMC Code v5.4.1]|^+ege||1|Window,2,Fast,0,1,Input,-1,-1,1|1|searchchat
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|2390|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|32|Sleep|||||5|
+5|Left Move & Click|46, 116 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|15|Sleep|||||7|
+7|Left Move & Click|46, 116 Left, Up|1|0|Click|||||8|
+
+[PMC Code v5.4.1]|iGNORE||0|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro
+Context=|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Editar ahk_class AutoHotkeyGUI|||1|
+2|WinActivate||1|333|WinActivate||Editar ahk_class AutoHotkeyGUI||||
+3|[Pause]||1|4234|Sleep||||||
+4|F9|{F9}|1|0|Send||||||
+
+[PMC Code v5.4.1]|^!c||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Conversationino
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1813|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|31|Sleep|||||5|
+5|Left Move & Click|1348, 72 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|16|Sleep|||||7|
+7|Left Move & Click|1348, 72 Left, Up|1|0|Click|||||8|
+
+[PMC Code v5.4.1]|+n||1|Window,2,Fast,0,1,Input,-1,-1,1|1|nextchat
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1235|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|125|Sleep|||||5|
+5|Tab|{Tab}|1|0|Send|||||6|
+6|[Pause]||1|156|Sleep|||||7|
+7|LControl Up|{LControl Up}|1|0|Send|||||8|
+
+[PMC Code v5.4.1]|!p||1|Window,2,Fast,0,1,Input,-1,-1,1|1|previewchat
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|2109|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|141|Sleep|||||5|
+5|RShift Down|{RShift Down}|1|0|Send|||||6|
+6|[Pause]||1|156|Sleep|||||7|
+7|Tab|{Tab}|1|0|Send|||||8|
+8|[Pause]||1|140|Sleep|||||9|
+9|RShift Up|{RShift Up}|1|0|Send|||||10|
+10|[Pause]||1|63|Sleep|||||11|
+11|LControl Up|{LControl Up}|1|0|Send|||||12|
+
+[PMC Code v5.4.1]|aA||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro20
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1640|Sleep|||||3|
+3|NumpadDiv|{NumpadDiv}|1|0|Send|||||4|
+4|[Pause]||1|47|Sleep|||||5|
+5|Move|362, 179, 0|1|0|Click|||||6|
+6|[Pause]||1|16|Sleep|||||7|
+7|WinActivate||1|0|WinActivate||Nueva notificación ahk_class Windows.UI.Core.CoreWindow|||8|
+8|Left Move & Click|362, 179 Left, Down|1|0|Click|||||9|
+9|[Pause]||1|16|Sleep|||||10|
+10|Left Move & Click|362, 179 Left, Up|1|0|Click|||||11|
+11|[Pause]||1|234|Sleep|||||12|
+12|Move|362, -25, 0|1|0|Click|||||13|
+
+[PMC Code v5.4.1]|^s||1|Window,2,Fast,0,1,Input,-1,-1,1|1|sendmsg
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|922|Sleep|||||3|
+3|WinActivate||1|0|WinActivate||Nueva notificación ahk_class Windows.UI.Core.CoreWindow|||4|
+4|Left Move & Click|1332, 703 Left, Down|1|0|Click|||||5|
+5|[Pause]||1|63|Sleep|||||6|
+6|Left Move & Click|362, 179 Left, Up|1|0|Click|||||7|
+7|[Pause]||1|47|Sleep|||||8|
+8|Move|362, -25, 0|1|0|Click|||||9|
+9|[Pause]||1|3625|Sleep|||||10|
+10|NumpadDiv|{NumpadDiv}|1|0|Send|||||11|
+11|[Pause]||1|47|Sleep|||||12|
+12|Move|1340, 711, 0|1|0|Click|||||13|
+13|WinActivate||1|0|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||14|
+14|Left Move & Click|1340, 711 Left, Down|1|0|Click|||||15|
+15|[Pause]||1|15|Sleep|||||16|
+16|Left Move & Click|1340, 711 Left, Up|1|0|Click|||||17|
+
