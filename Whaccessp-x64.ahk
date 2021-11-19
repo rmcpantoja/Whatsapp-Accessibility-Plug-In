@@ -1,5 +1,5 @@
-﻿#include include\NVDAControllerClient32.ahk
-;#include include\NVDAControllerClient64.ahk ;uncomment this if you use 32 bit of autohotkey
+﻿;#include include\NVDAControllerClient32.ahk
+#include include\NVDAControllerClient64.ahk ;uncomment this if you use 32 bit of autohotkey
 #include include\sapi.ahk
 #include include\reader.ahk
 #NoEnv
