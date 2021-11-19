@@ -1,19 +1,19 @@
-## WAP Commands:
+# WAP Commands:
 
 These are the commands we have at the moment:
 
-### General commands:
+## General commands:
 
 * control+shift+o: Open WhatsApp settings.
 
-### Chat commands:
+## Chat commands:
 
 * control+alt+c: Conversation/chat info.
 * control+alt+f: directly open the search box to search for chats.
 * alt+n: Next chat.
 * alt+p: Previeus chat.
 
-### Messages and contact commands:
+## Messages and contact commands:
 
 * control+shift+a: attach file.
 * Control+shift+c: Copy selected message in the chat list.
@@ -24,7 +24,7 @@ These are the commands we have at the moment:
 * control+shift+alt+r: Resend.
 * alt+s: Send messaje directly.
 
-### Voice messages and files commands:
+## Voice messages and files commands:
 
 * Control+alt+p: Play/pause voice message.
 * control+alt+r: Reset voice message tat is playing.
