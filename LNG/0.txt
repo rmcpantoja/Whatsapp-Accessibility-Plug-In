@@ -1,0 +1,33 @@
+[language info]
+Name=
+code=
+version=
+author=
+Copyright=
+[strings]
+Whatsapp Accessibility Plug-in %programVer% initialiced. Welcome! Press control + shift + f1 for help, control + shift + q to exit. Plug-in developed by Mateo Cedillo. http://mateocedillo.260mb.net/=
+Error=
+You must have whatsapp beta running to activate this script...=
+Control + shift + f to send feedback. Control + shift + s to click the 'start' button (if you don't have sessions open) To link an account to the new WhatsApp. control+shift+o: Open WhatsApp settings. To know all the commands to handle WhatsApp, I recommend you take a look at the document commands.html.=
+Feedback button openned=
+Start button clicked=
+forward=
+rewind=
+Reply=
+Resend=
+answering in private=
+attaching file=
+the message has been copied to the clipboard.=
+WhatsApp settings have been opened=
+The message information has been opened.=
+The message has been deleted for you.=
+Voice message played / paused=
+voice message set at the beginning of the audio.=
+Opening save as ...=
+Chat search box openned=
+Chat information was opened.=
+Next chat.=
+Previeus chat=
+Message sent.=
+WhatsApp window maximiced.=
+WhatsApp accessibility plug-in closed.=

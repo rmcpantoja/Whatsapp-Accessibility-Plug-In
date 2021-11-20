@@ -1,0 +1,33 @@
+[language info]
+Name=Español
+code=Es
+version=0.1
+author=Mateo Cedillo
+Copyright=© 2018-2021 MT Programs, All rights reserved
+[strings]
+Whatsapp Accessibility Plug-in %programVer% initialiced. Welcome! Press control + shift + f1 for help, control + shift + q to exit. Plug-in developed by Mateo Cedillo. http://mateocedillo.260mb.net/=Plug-in de accesibilidad de Whatsapp%programVer% inicializado. ¡Bienvenido! Pulsa control + shift + f1 para obtener ayuda, control + shift + q para salir. Plug-in desarrollado por Mateo Cedillo. http://mateocedillo.260mb.net/
+Error=Error
+You must have whatsapp beta running to activate this script...=Debes tener whatsapp beta ejecutándose para activar este script...
+Control + shift + f to send feedback. Control + shift + s to click the 'start' button (if you don't have sessions open) To link an account to the new WhatsApp. control+shift+o: Open WhatsApp settings. To know all the available commands, I recommend you take a look at the document commands.html.=Control + shift + f para enviar comentarios. Control + shift + s para hacer clic en el botón 'Comenzar' (si no tienes sesiones abiertas) Para vincular una cuenta al nuevo WhatsApp. control + shift + o: abre la configuración de WhatsApp. Para conocer todos los comandos disponibles, te recomiendo que le eches un vistazo al documento commands.html.
+Feedback button openned=Botón de comentarios abierto
+Start button clicked=Se hizo clic en el botón comenzar
+forward=Avanzando
+rewind=Retrocediendo
+Reply=Responder
+Resend=Reenviar
+answering in private=Respondiendo en privado
+attaching file=Adjuntando archivo
+the message has been copied to the clipboard.=el mensaje se ha copiado al portapapeles.
+WhatsApp settings have been opened=Se abrieron los ajustes de WhatsApp.
+The message information has been opened.=Se abrió la información del mensaje.
+The message has been deleted for you.=El mensaje se ha eliminado para ti.
+Voice message played / paused=Mensaje de voz reproducido/en pausa
+voice message set at the beginning of the audio.=mensaje de voz establecido al comienzo del audio.
+Opening save as ...=Abriendo guardar como...
+Chat search box openned=Se abrió el cuadro de búsqueda de chat.
+Chat information was opened.=Se abrió la información del chat.
+Next chat.=Siguiente chat.
+Previeus chat=Chat anterior.
+Message sent.=Mensaje enviado.
+WhatsApp window maximiced.=Ventana de WhatsApp maximizada.
+WhatsApp accessibility plug-in closed.=Plug-in de accesibilidad de whatsapp cerrado.

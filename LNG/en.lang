@@ -1,0 +1,33 @@
+[language info]
+Name=English
+code=En
+version=0.1
+author=Mateo Cedillo
+Copyright=Copyright=© 2018-2021 MT Programs, All rights reserved
+[strings]
+Whatsapp Accessibility Plug-in %programVer% initialiced. Welcome! Press control + shift + f1 for help, control + shift + q to exit. Plug-in developed by Mateo Cedillo. http://mateocedillo.260mb.net/=Whatsapp Accessibility Plug-in %programVer% initialiced. Welcome! Press control + shift + f1 for help, control + shift + q to exit. Plug-in developed by Mateo Cedillo. http://mateocedillo.260mb.net/
+Error=Error
+You must have whatsapp beta running to activate this script...=You must have whatsapp beta running to activate this script...
+Control + shift + f to send feedback. Control + shift + s to click the 'start' button (if you don't have sessions open) To link an account to the new WhatsApp. control+shift+o: Open WhatsApp settings. To know all the commands to handle WhatsApp, I recommend you take a look at the document commands.html.=Control + shift + f to send feedback. Control + shift + s to click the 'start' button (if you don't have sessions open) To link an account to the new WhatsApp. control+shift+o: Open WhatsApp settings. To know all the commands to handle WhatsApp, I recommend you take a look at the document commands.html.
+Feedback button openned=Feedback button openned
+Start button clicked=Start button clicked
+forward=forward
+rewind=rewind
+Reply=Reply
+Resend=Resend
+answering in private=answering in private
+attaching file=attaching file
+the message has been copied to the clipboard.=the message has been copied to the clipboard.
+WhatsApp settings have been opened=WhatsApp settings have been opened
+The message information has been opened.=The message information has been opened.
+The message has been deleted for you.=The message has been deleted for you.
+Voice message played / paused=Voice message played / paused
+voice message set at the beginning of the audio.=voice message set at the beginning of the audio.
+Opening save as ...=Opening save as ...
+Chat search box openned=Chat search box openned
+Chat information was opened.=Chat information was opened.
+Next chat.=Next chat.
+Previeus chat=Previeus chat
+Message sent.=Message sent.
+WhatsApp window maximiced.=WhatsApp window maximiced.
+WhatsApp accessibility plug-in closed.=WhatsApp accessibility plug-in closed.
