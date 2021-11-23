@@ -1,0 +1,233 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Llamar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|3015|Sleep|||||3|
+3|Left Move & Click|682, 65 Left, Down|1|0|Click|||||4|
+4|[Pause]||1|344|Sleep|||||5|
+5|Left Move & Click|682, 65 Left, Up|1|0|Click|||||6|
+6|[Pause]||1|438|Sleep|||||7|
+7|Move|-144, 67, 0|1|0|Click|||||8|
+8|[Pause]||1|234|Sleep|||||9|
+9|Move|-109, 67, 0|1|0|Click|||||10|
+
+[PMC Code v5.4.1]|F4||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Silenciar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|703|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|78|Sleep|||||5|
+5|LControl Up|{LControl Up}|1|0|Send|||||6|
+6|[Pause]||1|609|Sleep|||||7|
+7|Left Move & Click|94, 133 Left, Down|1|0|Click|||||8|
+8|[Pause]||1|282|Sleep|||||9|
+9|Left Move & Click|94, 133 Left, Up|1|0|Click|||||10|
+
+[PMC Code v5.4.1]|F5||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Finalizar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1157|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|125|Sleep|||||5|
+5|LControl Up|{LControl Up}|1|0|Send|||||6|
+6|[Pause]||1|297|Sleep|||||7|
+7|Left Move & Click|343, 137 Left, Down|1|0|Click|||||8|
+8|[Pause]||1|203|Sleep|||||9|
+9|Left Move & Click|343, 137 Left, Up|1|0|Click|||||10|
+
+[PMC Code v5.4.1]|F6||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Videollamar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|703|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|63|Sleep|||||5|
+5|Left Move & Click|637, 65 Left, Down|1|0|Click|||||6|
+6|[Pause]||1|62|Sleep|||||7|
+7|LControl Up|{LControl Up}|1|0|Send|||||8|
+8|[Pause]||1|157|Sleep|||||9|
+9|Left Move & Click|637, 65 Left, Up|1|0|Click|||||10|
+10|[Pause]||1|687|Sleep|||||11|
+11|Move|457, -74, 0|1|0|Click|||||12|
+
+[PMC Code v5.4.1]|F7||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Nofunciona
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1703|Sleep|||||3|
+3|LControl Down|{LControl Down}|1|0|Send|||||4|
+4|[Pause]||1|156|Sleep|||||5|
+5|LControl Up|{LControl Up}|1|0|Send|||||6|
+6|[Pause]||1|750|Sleep|||||7|
+7|Left Move & Click|-189, 67 Left, Down|1|0|Click|||||8|
+8|[Pause]||1|32|Sleep|||||9|
+9|Move|637, 65, 0|1|0|Click|||||10|
+10|[Pause]||1|172|Sleep|||||11|
+11|Left Move & Click|637, 65 Left, Up|1|0|Click|||||12|
+12|[Pause]||1|2078|Sleep|||||13|
+13|Move|639, 63, 0|1|0|Click|||||14|
+14|[Pause]||1|15|Sleep|||||15|
+15|Move|651, 51, 0|1|0|Click|||||16|
+16|[Pause]||1|16|Sleep|||||17|
+17|Move|660, 44, 0|1|0|Click|||||18|
+18|[Pause]||1|31|Sleep|||||19|
+19|Move|687, 28, 0|1|0|Click|||||20|
+20|[Pause]||1|16|Sleep|||||21|
+21|Move|706, 20, 0|1|0|Click|||||22|
+22|[Pause]||1|15|Sleep|||||23|
+23|Move|732, 13, 0|1|0|Click|||||24|
+24|[Pause]||1|16|Sleep|||||25|
+25|Move|754, 8, 0|1|0|Click|||||26|
+26|[Pause]||1|31|Sleep|||||27|
+27|Move|823, -8, 0|1|0|Click|||||28|
+28|Move|860, -13, 0|1|0|Click|||||29|
+29|[Pause]||1|16|Sleep|||||30|
+30|Move|916, -18, 0|1|0|Click|||||31|
+31|Move|938, -18, 0|1|0|Click|||||32|
+32|[Pause]||1|31|Sleep|||||33|
+33|Move|966, -15, 0|1|0|Click|||||34|
+34|[Pause]||1|16|Sleep|||||35|
+35|Move|984, -10, 0|1|0|Click|||||36|
+36|[Pause]||1|15|Sleep|||||37|
+37|Move|993, -4, 0|1|0|Click|||||38|
+38|[Pause]||1|16|Sleep|||||39|
+39|Move|995, -3, 0|1|0|Click|||||40|
+40|[Pause]||1|16|Sleep|||||41|
+41|Move|996, -2, 0|1|0|Click|||||42|
+42|Move|997, 0, 0|1|0|Click|||||43|
+43|[Pause]||1|15|Sleep|||||44|
+44|Move|998, 1, 0|1|0|Click|||||45|
+45|[Pause]||1|16|Sleep|||||46|
+46|Move|999, 3, 0|1|0|Click|||||47|
+47|Move|999, 4, 0|1|0|Click|||||48|
+48|[Pause]||1|16|Sleep|||||49|
+49|Move|999, 6, 0|1|0|Click|||||50|
+50|[Pause]||1|15|Sleep|||||51|
+51|Move|999, 15, 0|1|0|Click|||||52|
+52|Move|996, 29, 0|1|0|Click|||||53|
+53|[Pause]||1|16|Sleep|||||54|
+54|Move|989, 52, 0|1|0|Click|||||55|
+55|[Pause]||1|15|Sleep|||||56|
+56|Move|976, 91, 0|1|0|Click|||||57|
+57|Move|961, 134, 0|1|0|Click|||||58|
+58|[Pause]||1|32|Sleep|||||59|
+59|Move|924, 226, 0|1|0|Click|||||60|
+60|Move|906, 262, 0|1|0|Click|||||61|
+61|[Pause]||1|15|Sleep|||||62|
+62|Move|891, 291, 0|1|0|Click|||||63|
+63|[Pause]||1|32|Sleep|||||64|
+64|Move|880, 307, 0|1|0|Click|||||65|
+65|[Pause]||1|312|Sleep|||||66|
+66|Move|890, 307, 0|1|0|Click|||||67|
+67|[Pause]||1|16|Sleep|||||68|
+68|Move|904, 303, 0|1|0|Click|||||69|
+69|[Pause]||1|15|Sleep|||||70|
+70|Move|925, 297, 0|1|0|Click|||||71|
+71|[Pause]||1|16|Sleep|||||72|
+72|Move|934, 295, 0|1|0|Click|||||73|
+73|[Pause]||1|16|Sleep|||||74|
+74|Move|936, 295, 0|1|0|Click|||||75|
+75|[Pause]||1|15|Sleep|||||76|
+76|Move|938, 295, 0|1|0|Click|||||77|
+77|Move|940, 295, 0|1|0|Click|||||78|
+78|[Pause]||1|16|Sleep|||||79|
+79|Move|941, 295, 0|1|0|Click|||||80|
+80|[Pause]||1|15|Sleep|||||81|
+81|Move|944, 295, 0|1|0|Click|||||82|
+82|[Pause]||1|16|Sleep|||||83|
+83|Move|945, 295, 0|1|0|Click|||||84|
+84|[Pause]||1|31|Sleep|||||85|
+85|Move|946, 295, 0|1|0|Click|||||86|
+86|[Pause]||1|16|Sleep|||||87|
+87|Move|948, 296, 0|1|0|Click|||||88|
+88|Move|948, 297, 0|1|0|Click|||||89|
+89|[Pause]||1|16|Sleep|||||90|
+90|Move|948, 298, 0|1|0|Click|||||91|
+91|Move|949, 298, 0|1|0|Click|||||92|
+92|[Pause]||1|31|Sleep|||||93|
+93|Move|949, 299, 0|1|0|Click|||||94|
+94|Move|949, 300, 0|1|0|Click|||||95|
+95|[Pause]||1|15|Sleep|||||96|
+96|Move|950, 301, 0|1|0|Click|||||97|
+97|[Pause]||1|16|Sleep|||||98|
+98|Move|951, 302, 0|1|0|Click|||||99|
+99|Move|951, 304, 0|1|0|Click|||||100|
+100|[Pause]||1|47|Sleep|||||101|
+101|Move|952, 306, 0|1|0|Click|||||102|
+102|[Pause]||1|16|Sleep|||||103|
+103|Move|952, 307, 0|1|0|Click|||||104|
+104|[Pause]||1|171|Sleep|||||105|
+105|WinActivate||1|0|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||106|
+106|Left Move & Click|952, 307 Left, Down|1|0|Click|||||107|
+107|[Pause]||1|32|Sleep|||||108|
+108|Move|126, 309, 0|1|0|Click|||||109|
+109|[Pause]||1|187|Sleep|||||110|
+110|Left Move & Click|126, 309 Left, Up|1|0|Click|||||111|
+111|[Pause]||1|188|Sleep|||||112|
+112|Move|126, 310, 0|1|0|Click|||||113|
+113|[Pause]||1|15|Sleep|||||114|
+114|Move|126, 311, 0|1|0|Click|||||115|
+115|[Pause]||1|32|Sleep|||||116|
+116|Move|126, 312, 0|1|0|Click|||||117|
+117|[Pause]||1|15|Sleep|||||118|
+118|Move|126, 313, 0|1|0|Click|||||119|
+119|[Pause]||1|16|Sleep|||||120|
+120|Move|126, 314, 0|1|0|Click|||||121|
+121|[Pause]||1|15|Sleep|||||122|
+122|Move|126, 315, 0|1|0|Click|||||123|
+123|[Pause]||1|32|Sleep|||||124|
+124|Move|126, 316, 0|1|0|Click|||||125|
+125|[Pause]||1|31|Sleep|||||126|
+126|Move|126, 318, 0|1|0|Click|||||127|
+127|[Pause]||1|47|Sleep|||||128|
+128|Move|126, 319, 0|1|0|Click|||||129|
+129|[Pause]||1|15|Sleep|||||130|
+130|Move|127, 320, 0|1|0|Click|||||131|
+131|[Pause]||1|47|Sleep|||||132|
+132|Move|128, 322, 0|1|0|Click|||||133|
+133|[Pause]||1|16|Sleep|||||134|
+134|Move|128, 323, 0|1|0|Click|||||135|
+135|[Pause]||1|31|Sleep|||||136|
+136|Move|129, 324, 0|1|0|Click|||||137|
+137|[Pause]||1|31|Sleep|||||138|
+138|Move|129, 325, 0|1|0|Click|||||139|
+139|Move|129, 326, 0|1|0|Click|||||140|
+140|[Pause]||1|32|Sleep|||||141|
+141|Move|130, 326, 0|1|0|Click|||||142|
+142|Move|130, 327, 0|1|0|Click|||||143|
+143|[Pause]||1|187|Sleep|||||144|
+144|WinActivate||1|0|WinActivate||Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow|||145|
+145|Left Move & Click|130, 327 Left, Down|1|0|Click|||||146|
+146|[Pause]||1|203|Sleep|||||147|
+147|Left Move & Click|130, 327 Left, Up|1|0|Click|||||148|
+148|[Pause]||1|516|Sleep|||||149|
+149|Move|165, 327, 0|1|0|Click|||||150|
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|contestar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate|| ahk_class ApplicationManager_ImmersiveShellWindow|||1|
+2|[Pause]||1|1437|Sleep|||||3|
+3|WinActivate||1|0|WinActivate||WhatsApp Beta ahk_class ApplicationFrameWindow|||4|
+4|Left Move & Click|988, 340 Left, Down|1|0|Click|||||5|
+5|[Pause]||1|47|Sleep|||||6|
+6|Move|162, 342, 0|1|0|Click|||||7|
+7|[Pause]||1|203|Sleep|||||8|
+8|Left Move & Click|162, 342 Left, Up|1|0|Click|||||9|
+9|[Pause]||1|219|Sleep|||||10|
+10|Move|197, 342, 0|1|0|Click|||||11|
+
+[PMC Code v5.4.1]|||1|Window,2,Fast,0,1,Input,-1,-1,1|1|rechazar
+Context=None|
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow|||1|
+2|[Pause]||1|1266|Sleep|||||3|
+3|Left Move & Click|236, 333 Left, Down|1|0|Click|||||4|
+4|[Pause]||1|250|Sleep|||||5|
+5|Left Move & Click|236, 333 Left, Up|1|0|Click|||||6|
+6|[Pause]||1|1796|Sleep|||||7|
+7|Move|1222, 363, 0|1|0|Click|||||8|
+
