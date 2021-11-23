@@ -1,0 +1,33 @@
+Manual de usuario del plugin de accesibilidad para WhatsApp
+¿qué es?
+Este es un pequeño pero a la vez gran complemento independiente (para usuarios con lector de pantalla o personas con discapacidad) que te permite tener una mejor experiencia con el nuevo WhatsApp (UWP) es decir, la nueva aplicación de la tienda para Windows diez y once mediante atajos de teclado, y hace accesibles ciertas cosas en las que no funciona con activar objetos que requieran uno o múltiples clics o acciones.
+Lectores de pantalla soportados:
+1. JAWS
+2. NVDA (voz y braille)
+3. Sapi5
+¿Cómo funciona?
+Extrae el archivo zip y ejecuta Whaccessp.exe.
+Inmediatamente, se iniciará el plugin pero con ciertos cambios a lo acostumbrado:
+1. No pedirá seleccionar idioma al inicio, este es detectado automáticamente por el idioma del sistema, pero puedes hacer o agregar nuevos si quieres. Para más información sobre cómo hacer esto, lee el documento de la guía de traducción. Si deseas, puedes enviar tu idioma a errores y sugerencias o haciendo una pull Request en GitHub para incluirlo en la próxima versión.
+2. No preguntará por accesibilidad mejorada, puesto a que no es necesario. Este programa es hecho exclusivamente para personas con discapacidad visual.
+3. Por ahora, no hay función de buscar actualizaciones ni mensajes del día, pero se piensa agregar pronto. Esto es porque está hecho en un lenguaje de programación diferente al de todos mis programas.
+Cuando se haya cargado el programa, muestra como de costumbre la misma ventana principal, pero esta vez hay una opción para ocultarla o desaparecerla para que no estorbe al usuario.
+A su vez, te da un mensaje de bienvenida con tu lector de pantallas en donde te indica los comandos de teclado más importantes.
+Nota: En este caso, no funcionará el ALT para abrir el menú. En su lugar, usa el botón "abrir el menú" o la combinación de teclas ALT m.
+Este plugin tiene muchas acciones y comandos de teclado que puedes interactuar con cada una de ellas. Hay dos formas de usar estas funciones.
+1. Desde los atajos de teclado (recomendable): En la ventana de WhatsApp, presionando directamente cualquier atajo de teclado que posee el programa puedes activar su respectiva función.
+2. Desde el menú. En la ventana de WhatsApp, presiona control + shift + h y se te despliega el menú organizado en categorías. Comandos generales, chat, LLAMADAS, mensajes, archivos y notas de voz, vincular una nueva cuenta, enviar comentarios y salir. También se encuentra el submenú para ayuda. Es el mismo menú de la ventana principal, pero se puede usar con o sin ella.
+Puedes leer todos los atajos de teclado disponibles visitando el documento de comandos desde el menú, submenú ayuda.
+Nota: La opción vincular una nueva cuenta funciona solAMENTE cuando no tienes ninguna sesión abierta en WhatsApp.
+Aviso: Hay atajos de teclado que requieren que abras un chat de WhatsApp para que cumplan su función: Por ejemplo, es en el caso de información de conversación/chat, adjuntar archivo, etc.
+
+Si quieres dejar de usar el plugin por completo, presiona el botón "salir" en la ventana principal (si la tienes mostrada) o directamente con el atajo de teclas control shift q. O si te estorba la ventana principal puedes ocultarla con el atajo ALT v o presionando el respectivo botón y seguir usando el complemento con comodidad.
+
+¿funciona este plugin con la versión WEB de WhatsApp?
+No. Solo funciona con la aplicación WhatsApp beta de la Microsoft Store, pero es probable de que pronto esa versión se marque como estable.
+
+Conclusión y agradecimientos:
+Este complemento está en fase beta, pero no significa que no sea usable para los usuarios, con el fin de proporcionar una accesibilidad mejorada a la aplicación WhatsApp de la tienda de Microsoft.
+Si quieres sugerir una función, característica o reportar un error, puedes hacerlo en las opciones de errores y sugerencias, ya sea en el formulario o a través del repositorio de GitHub creando una incidencia o pull request. Tu ayuda es bienvenida.
+Finalmente, gracias a todos los beta testers que probaron este plugin antes de su lanzamiento oficial y a los usuarios que lo están probando hasta ahora.
+Fin.

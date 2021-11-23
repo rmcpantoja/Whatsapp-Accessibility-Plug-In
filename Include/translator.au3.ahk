@@ -26,6 +26,13 @@ translate(LanguageName, string)
 {
     global
     ;msgbox, 0, result, IniRead, strings, %a_scriptDir%\LNG\%languageName%.lang, strings, %string%
-    IniRead, strings, %a_scriptDir%\LNG\%languageName%.lang, strings, %string%
-    Return strings
+IniRead, strings, %a_scriptDir%\LNG\%languageName%.lang, strings, %string%
+IfInString, strings, ERROR
+{
+return string
+}
+else
+{
+Return strings
+}
 }

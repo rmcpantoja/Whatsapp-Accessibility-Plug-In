@@ -1,0 +1,3 @@
+Changes:
+0.1 beta (Nov 21, 2021)
+Main version. Note: This first version could contain errors, therefore you can make it known in the different means of contact.

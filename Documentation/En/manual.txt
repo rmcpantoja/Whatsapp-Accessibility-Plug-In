@@ -1,0 +1,33 @@
+Whatsapp accessibility plugin user manual.
+what is this?
+This is a small but at the same time great independent complement (for users with screen readers or people with disabilities) that allows you to have a better experience with the new WhatsApp (UWP) that is, the new store application for Windows ten and eleven using keyboard shortcuts, and makes certain things that it doesn't work accessible by activating objects that require one or multiple clicks or actions.
+Supported screen readers:
+1. JAWS
+2. NVDA (voice and braille)
+3. Sapi5
+How does it work?
+Extract the zip file and run Whaccessp.exe.
+Immediately, the plugin will start but with certain changes to the usual:
+1. It will not ask to select language at startup, this is automatically detected by the system language, but you can make or add new ones if you want. For more information on how to do this, read the translation guide document. If you want, you can send your language to errors and suggestions or by doing a pull Request on GitHub to include it in the next version.
+2. It will not ask for improved accessibility, since it is not necessary. This program is made exclusively for the visually impaired.
+3. For now, there is no function to check for updates or messages of the day, but it is planned to add soon. This is because it is done in a different programming language than all my programs.
+When the program has loaded, it shows the same main window as usual, but this time there is an option to hide it or disappear it so that it does not disturb the user.
+In turn, it gives you a welcome message with your screen reader where it indicates the most important keyboard commands.
+Note: In this case, ALT to open the menu will not work. Instead, use the "open menu" button or the ALT m key combination.
+This plugin has many actions and keyboard commands that you can interact with each of them. There are two ways to use these functions.
+1. From the keyboard shortcuts (recommended): In the WhatsApp window, by directly pressing any keyboard shortcut that the program has, you can activate its respective function.
+2. From the menu. In the WhatsApp window, press control + shift + h and the menu organized in categories is displayed. General commands, chat, CALLS, messages, files and voice notes, link a new account, send comments and exit. There is also the submenu for help. It is the same menu as the main window, but it can be used with or without it.
+You can read all the available keyboard shortcuts by visiting the command document from the menu, submenu help.
+Note: The option to link a new account works ONLY when you do not have any session open in WhatsApp.
+Notice: There are keyboard shortcuts that require you to open a WhatsApp chat to fulfill their function: For example,It is in the case of conversation / chat information, attach file, etc.
+
+If you want to stop using the plugin completely, press the "exit" button in the main window (if you have it displayed) or directly with the shortcut control shift q. Or if the main window gets in your way, you can hide it with the ALT w shortcut or by pressing the respective button and continue using the plugin comfortably.
+
+Does this plugin work with the WEB version of WhatsApp?
+No. It only works with the beta WhatsApp application from the Microsoft Store, but that version will likely be marked as stable soon.
+
+Conclusion and thanks:
+This plugin is in beta, but it does not mean that it is not usable for users, in order to provide improved accessibility to the WhatsApp application from the Microsoft store.
+If you want to suggest a function, feature or report a bug, you can do so in the bug and suggestion options, either in the form or through the GitHub repository by creating an issue or pull request. Your help is welcome.
+Finally, thanks to all the beta testers who tested this plugin before its official release and to the users who are testing it so far.
+End.
