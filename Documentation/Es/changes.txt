@@ -1,3 +1,6 @@
 Cambios:
-0.1 beta (21 nov. 2021)
+0.2 beta pública
+1. Agregada traducción al portugués, gracias a Jairo Conceição.
+
+0.1 beta (23 nov. 2021)
 Versión principal. Nota: Esta primera versión podría contener errores, por lo tanto puedes hacerlo saber en los diferentes medios de contacto.

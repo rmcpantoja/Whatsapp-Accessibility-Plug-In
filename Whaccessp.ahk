@@ -6,16 +6,20 @@
 ;Defining the program info:
 ;@Ahk2Exe-SetName WhatsApp Accessibility Plug-in
 ;@Ahk2Exe-SetDescription WhatsApp UWP accessibility plug-in for the blind
-;@Ahk2Exe-SetVersion 0.1.0.0
+;@Ahk2Exe-SetVersion 0.2.0.0
 ;;@Ahk2Exe-SetCopyright "Copyright 2018-2021 MT Programs, All rights reserved"
 ;@Ahk2Exe-SetOrigFilename Whaccessp.exe
 #NoEnv
 ProgramName := "WAP"
-ProgramVer := 0.1
+ProgramVer := 0.2
 speaking(ProgramName " " ProgramVer " - loading language...")
 if (InStr(A_language,"0a") = "3")
 {
 global Idioma := "es"
+}
+else if (InStr(A_language,"16") = "3")
+{
+global Idioma := "pt"
 }
 else
 {

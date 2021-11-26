@@ -1,0 +1,4 @@
+*.EXE
+*.st
+*.zip
+tests/
