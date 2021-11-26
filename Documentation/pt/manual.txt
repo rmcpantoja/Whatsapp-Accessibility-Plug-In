@@ -1,0 +1,33 @@
+Manual de usuário para o plugin de acessibilidade para WhatsApp
+O que é?
+Este é um pequeno mais um grande complemento independente (para usuários com leitor de telas ou pessoas com deficiência) que lhe permite ter uma melhor experiência com o novo WhatsApp (UWP) quer dizer, a nova aplicação da loja windows dez e onze por meio de atalhos de teclado, e torna acessível certas coisas em que não funciona como ativar objetos que nessecitam um ou múltiplos clicks ou ações.
+Leitores de telas suportados:
+1. JAWS
+2. NVDA (voz e braille)
+3. Sapi5
+Como funciona?
+Extraia o arquivo zip e execute Whaccessp.exe.
+Imediatamente, se iniciará o plugin mais com certas mudanças ao acostumado.
+1. Não pedirá para selecionar o idioma ao iniciar, esse é detectado automaticamente pelo idioma do sistema, porém pode fazer ou adicionar novos se quiser para mais informações sobre como fazer isso, leia o documento da guia de tradução. Se deseja, pode enviar seu idioma ao erros e sujestões ou fazendo uma pull Request em GitHub para ser adicionado na próxima verção.
+2. Não perguntará por acessibilidade melhorada, pois não é necessário. Este programa é feito exclusivamente para pessoas com deficiência visual.
+3. Por agora, não há função de buscar por atualizações nem mensagens do dia, mais se pensa em adicionar logo. Isto é porque está feito em uma linguagem de programação diferente de todos os meus programas.
+Quando o programa for carregado, mostra como de costume a mesma janela principal, mas desta vez há uma opção para ocultar ou desaparecer para que não atrapalhe o usuário.
+Por sua vez, te dá uma mensagem de boas vindas com o seu leitor de telas a onde te indica os comandos de teclados mais importantes.
+Nota: neste caso, não funcionará o ALT para abrir o menu. No seu lugar, utilize o botão "abrir o menu" ou a combinação de teclas ALT m.
+Este plugin tem muitas ações e comandos de teclado que pode interajir com cada uma delas. Há duas formas de utilizar essas funções.
+1. Atravéz dos atalhos de teclado (recomendável) na janela do WhatsApp, precionando diretamente qualquer atalho de teclado que possui o programa pode ativar sua respectiva função.
+2. Atravéz do menu na janela de WhatsApp, precione control + shift + h e navegue pelo menu organizado por categorias. Comandos gerais, conversas, chamadas, mensagens, arquivos e áudios, cincronizar uma nova conta, enviar comentários e sair. Também se encontra o submenu para ajuda. É o mesmo menu da janela principal, mas se pode com ou sem ela.
+Pode ler todos os atalhos de teclado disponíveis vizitando o documento de comandos atravéz do menu, submenu ajuda.
+Nota: A opção cincronizar uma nova conta funciona apenas quando não tenha nenhuma cessão aberta no WhatsApp.
+Avizo: Há atalhos de teclado que nessecitam que abra uma conversa de WhatsApp para que cumpram sua função: Por exemplo, é o caso de dados conversas/chat, anexar arquivo, etc.
+
+Se você quer deixar de utilizar o plugin por completo, precione o botão "sair" na janela principal (se a tem mostrada) ou diretamente com o atalho de teclado control shift q. Ou se atrapalha a janela principal pode ocultála com o atalho ALT v ou precionando o respectivo botão e seguir utilizando o complemento com mais comodidade.
+
+Funciona este plugin com a verção WEB de WhatsApp?
+Não. Apenas funciona com a aplicação WhatsApp  beta da Microsoft Store, mais é provável que logo essa verção seja marcada como estável.
+
+Conclusão e agradecimentos.
+Este complemento está em fase beta, mais não significa que não seja utilizável para os usuários, com a finalidade de proporcionar uma acessibilidade melhorada a aplicação WhatsApp da loja de Microsoft.
+Se você quer sujerir uma função, característica ou reportar um erro, pode fazê-lo nas opções de erros e sujestões, ou já seja no formulário ou atravéz do repositório de GitHub criando uma incidência ou pull request. Sua ajuda é bem-vinda.
+Finalmente, obrigado a todos os beta testers que provaram este plugin antes de seu lançamento oficial e aos usuários que estão provando até agora.
+fim.
