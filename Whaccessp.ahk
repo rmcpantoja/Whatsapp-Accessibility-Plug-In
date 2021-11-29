@@ -47,7 +47,7 @@ SetWinDelay 0
 SetKeyDelay -1
 SetMouseDelay -1
 SetBatchLines -1
-audioMuted := 0
+global audioMuted := 0
 gosub principal
 openmenu()
 {
@@ -896,13 +896,13 @@ speaking(translate(idioma, "The WhatsApp window is not active."))
 else
 {
 speaking(translate(idioma, "Making audio call..."))
-Click, 682, 65 Left, Down
-Sleep, 200
-Click, 682, 65 Left, Up
-Sleep, 200
-Click, -144, 67, 0
-Sleep, 200
-Click, -109, 67, 0
+Click, 1220, 72 Left, Down
+Sleep, 16
+Click, 1220, 72 Left, Up
+Sleep, 106
+Click, 226, 34, 0
+Sleep, 122
+Click, 261, 34, 0
 speaking(translate(idioma, "Audio call in progress"))
 }
 Return
@@ -914,18 +914,14 @@ Sleep, 333
 Click, 94, 133 Left, Down
 Sleep, 200
 Click, 94, 133 Left, Up
-IfInString, audioMuted, "0"
-{
+#If audioMuted= 0
 soundBeep, 800, 70
 speaking(translate(idioma, "Audio muted"))
 audioMuted := 1
-}
-else
-{
+#If audioMuted= 1
 SoundBeep, 1100, 70
 speaking(translate(idioma, "Audio unmuted"))
 audioMuted := 0
-}
 
 Return
 
