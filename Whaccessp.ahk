@@ -1,4 +1,4 @@
-﻿#include include\NVDAControllerClient32.ahk
+#include include\NVDAControllerClient32.ahk
 ;#include include\NVDAControllerClient64.ahk ;comment this if you use 32 bit of autohotkey
 #include include\sapi.ahk
 #include include\reader.ahk
@@ -187,50 +187,30 @@ speaking(translate(idioma, "Plugin menu closed"))
 }
 return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+f::
 FEED:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 100
 Click, 63, 616 Left, Down
 Sleep, 15
 Click, 63, 616 Left, Up
 Sleep, 105
 Click, -380, 456, 0
 speaking(translate(idioma, "Feedback button openned"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+s::
 start:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 100
 Click, 409, 538 Left, Down
 Sleep, 15
 Click, 409, 538 Left, Up
 speaking(translate(idioma, "Start button clicked"))
-}
 Return
 
 ;Many more commands
-
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 PgDn::
 forward:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 SoundPlay, Waves\scrollmessage.wav
 speaking(translate(idioma, "forward"))
 Sleep, 250
@@ -239,17 +219,11 @@ Sleep, 78
 Send, {PgDn}
 Sleep, 94
 Send, {LControl Up}
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 PgUp::
 retroceder:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 SoundPlay, Waves\scrollmessage.wav
 speaking(translate(idioma, "rewind"))
 Sleep, 250
@@ -258,17 +232,11 @@ Sleep, 75
 Send, {PgUp}
 Sleep, 75
 Send, {LControl Up}
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!k::
 marcar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 131
 Click, 102, 246, 0
@@ -282,17 +250,11 @@ Sleep, 47
 Click, 102, 246 Left, Up
 Sleep, 47
 speaking(translate(idioma, "Chat was marked as read"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!h::
 archivar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 185
 Click, 102, 360 Left, Down
@@ -303,17 +265,11 @@ Click, 102, 360 Left, Down
 Click, 102, 360 Left, Up
 Sleep, 100
 speaking(translate(idioma, "archived chat"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!u::
 desarchivar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 126
 Click, 102, 328, 0
@@ -327,17 +283,11 @@ Click, 102, 328 Left, Down
 Sleep, 16
 Click, 102, 328 Left, Up
 speaking(translate(idioma, "The chat is no longer archived"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!l::
 cerrarchat:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 200
 Click, 102, 433, 0
@@ -350,17 +300,11 @@ Click, 102, 433 Left, Down
 Sleep, 15
 Click, 102, 433 Left, Up
 speaking(translate(idioma, "chat closed"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!d::
 eliminar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 111
 Click, 102, 698, 0
@@ -378,17 +322,11 @@ Sleep, 125
 Click, 567, 427 Left, Down
 Click, 567, 427 Left, Up
 speaking(translate(idioma, "The chat has been removed"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!p::
 fijar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 181
 Click, 102, 575, 0
@@ -399,17 +337,11 @@ Sleep, 103
 Click, 102, 575 Left, Down
 Click, 102, 575 Left, Up
 speaking(translate(idioma, "Chat pinned"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!f::
 desfijar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 106
 Click, 102, 287, 0
@@ -422,17 +354,11 @@ Click, 102, 287 Left, Down
 Sleep, 16
 Click, 102, 287 Left, Up
 speaking(translate(idioma, "The chat is no longer pinned"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!m::
 silenciarchat:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 750
 Click, 102, 319, 0
@@ -454,17 +380,11 @@ Click, 246, 387 Left, Down
 Sleep, 47
 Click, 246, 387 Left, Up
 speaking(translate(idioma, "Chat muted"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!u::
 NoSilenciar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 1328
 Click, 102, 319, 0
@@ -484,17 +404,11 @@ Click, 261, 364 Left, Down
 Sleep, 47
 Click, 261, 364 Left, Up
 speaking(translate(idioma, "Chat unmuted"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+r::
 Reply:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Reply"))
 Sleep, 200
 Send, {AppsKey}
@@ -507,17 +421,11 @@ Click, 482, 423 Left, Up
 Sleep, 200
 Click, 482, 423 Left, Down
 Click, 482, 423 Left, Up
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+!r::
 Resend:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Resend"))
 Sleep, 100
 Send, {AppsKey}
@@ -530,17 +438,11 @@ Click, 482, 580 Left, Up
 Sleep, 162
 Click, 482, 580 Left, Down
 Click, 482, 580 Left, Up
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+p::
 Replyinprivate:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "answering in private"))
 Sleep, 150
 Send, {AppsKey}
@@ -554,17 +456,11 @@ Sleep, 200
 Click, 500, 571 Left, Down
 Sleep, 47
 Click, 500, 571 Left, Up
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!h::
 destacarmensaje:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 563
 Click, 500, 592, 0
@@ -576,17 +472,11 @@ Sleep, 1235
 Click, 500, 592 Left, Down
 Click, 500, 592 Left, Up
 speaking(translate(idioma, "The message has been highlighted"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+d::
 draw:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Click, 475, 711 Left, Down
 Click, 475, 711 Left, Up
 Sleep, 937
@@ -605,17 +495,11 @@ Sleep, 1031
 Click, 475, 667 Left, Down
 Sleep, 16
 Click, 475, 667 Left, Up
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+a::
 attach:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "attaching file"))
 Sleep, 200
 Click, 475, 711 Left, Down
@@ -643,17 +527,11 @@ Click, 475, 635 Left, Up
 Sleep, 128
 Click, 467, 627, 0
 SoundPlay, Waves\attach.wav, 1
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+c::
 copy:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Send, {AppsKey}
 Sleep, 139
 Click, 500, 373 Left, Down
@@ -664,7 +542,6 @@ Click, 500, 373 Left, Up
 Sleep, 153
 SoundPlay, Waves\copy_message.wav, 1
 speaking(translate(idioma, "the message has been copied to the clipboard."))
-}
 Return
 
 ^+o::
@@ -684,14 +561,9 @@ speaking(translate(idioma, "WhatsApp settings have been opened"))
 }
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+i::
 informacionmensaje:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 Sleep, 200
 Click, 364, 336 Left, Down
 Sleep, 15
@@ -701,18 +573,11 @@ Click, 364, 336 Left, Down
 Sleep, 15
 Click, 364, 336 Left, Up
 speaking(translate(idioma, "The message information has been opened."))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^+y::
 removeForME:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Send, {AppsKey}
 Sleep, 125
 Click, 500, 427, 0
@@ -735,48 +600,28 @@ Sleep, 16
 Click, 569, 444 Left, Up
 Sleep, 156
 speaking(translate(idioma, "The message has been deleted for you."))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!p::
 playpause:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Click, 433, 556 Left, Down
 Click, 433, 556 Left, Up
 speaking(translate(idioma, "Voice message played / paused"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!r::
 voicereset:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Click, 468, 572 Left, Down
 Sleep, 15
 Click, 468, 572 Left, Up
 speaking(translate(idioma, "voice message set at the beginning of the audio."))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!s::
 saveas:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Opening save as ..."))
 Sleep, 200
 Send, {AppsKey}
@@ -790,91 +635,58 @@ Click, 482, 453 Left, Down
 Click, 482, 453 Left, Up
 Sleep, 200
 Click, 474, 445, 0
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!f::
 searchchat:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Click, 46, 116 Left, Down
 Sleep, 15
 Click, 46, 116 Left, Up
 sleep, 100
 speaking(translate(idioma, "Chat search box openned"))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 ^!c::
 Conversationinfo:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Click, 1348, 72 Left, Down
 Sleep, 16
 Click, 1348, 72 Left, Up
 speaking(translate(idioma, "Chat information was opened."))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 !n::
 nextchat:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Next chat."))
-Sleep, 200
+Sleep, 150
 Send, {LControl Down}
 Sleep, 125
 Send, {Tab}
-Sleep, 156
+Sleep, 150
 Send, {LControl Up}
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 !p::
 previeuschat:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Previeus chat"))
-Sleep, 200
+Sleep, 100
 Send, {LControl Down}
 Sleep, 141
 Send, {RShift Down}
-Sleep, 156
+Sleep, 150
 Send, {Tab}
 Sleep, 140
 Send, {RShift Up}
 Sleep, 63
 Send, {LControl Up}
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 !s::
 sendmsg:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
-Sleep, 200
 Click, 1340, 711, 0
 Sleep, 172
 Click, 32, 56, 0
@@ -884,17 +696,11 @@ Sleep, 187
 Click, 1340, 711 Left, Down
 Click, 1340, 711 Left, Up
 speaking(translate(idioma, "Message sent."))
-}
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!c::
 Llamar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Making audio call..."))
 Click, 1220, 72 Left, Down
 Sleep, 16
@@ -904,15 +710,14 @@ Click, 226, 34, 0
 Sleep, 122
 Click, 261, 34, 0
 speaking(translate(idioma, "Audio call in progress"))
-}
 Return
 
+#ifWinActive llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow
 +!m::
 Silenciar:
-WinActivate, Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow
-Sleep, 333
+audioMuted :=1
 Click, 94, 133 Left, Down
-Sleep, 200
+Sleep, 150
 Click, 94, 133 Left, Up
 #If audioMuted= 0
 soundBeep, 800, 70
@@ -922,27 +727,20 @@ audioMuted := 1
 SoundBeep, 1100, 70
 speaking(translate(idioma, "Audio unmuted"))
 audioMuted := 0
-
 Return
 
+#ifWinActive llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow
 +!e::
 Finalizar:
-WinActivate, Llamada ‎- WhatsApp Beta ahk_class ApplicationFrameWindow
-Sleep, 333
 Click, 343, 137 Left, Down
-Sleep, 200
+Sleep, 150
 Click, 343, 137 Left, Up
 speaking(translate(idioma, "Call ended"))
 Return
 
+#ifWinActive WhatsApp Beta ahk_class ApplicationFrameWindow
 +!v::
 Videollamar:
-IfWinNotActive, WhatsApp Beta
-{
-speaking(translate(idioma, "The WhatsApp window is not active."))
-}
-else
-{
 speaking(translate(idioma, "Making video call..."))
 Sleep, 333
 Click, 637, 65 Left, Down
@@ -951,7 +749,6 @@ Click, 637, 65 Left, Up
 Sleep, 187
 Click, 457, -74, 0
 speaking(translate(idioma, "Video call in progress"))
-}
 Return
 
 +!a::
@@ -968,6 +765,7 @@ Sleep, 200
 Click, 197, 342, 0
 speaking(translate(idioma, "The call has been answered. Call controls available."))
 Return
+
 
 +!r::
 rechazar:
